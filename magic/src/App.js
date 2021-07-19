@@ -9,6 +9,13 @@ function App() {
 <Container fluid="md">
   <Row>
     <Col>Dion Magic</Col>
+    <form>
+  <label>
+    Name:
+    <input type="text" name="name" />
+  </label>
+  <input type="submit" value="Submit" />
+</form>
   </Row>
 </Container>
  
