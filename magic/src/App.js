@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import {Container, Row, Col}  from 'react-bootstrap';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Dion's Magic App...Coming Soon!
-        </a>
-      </header>
-    </div>
-  );
+  <>
+<Container fluid="md">
+  <Row>
+    <Col>Dion Magic</Col>
+  </Row>
+</Container>
+ 
+Dion's Magic App...Coming Soon!
+</> );
+
 }
 
 export default App;
